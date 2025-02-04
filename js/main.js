@@ -45,7 +45,7 @@ $(window).load( function() {
     setTimeout(function() {
         $(".loader-wrapper").fadeOut('fast');
         (loader).fadeOut('fast');
-    }, 3500);
+    }, 2600);
 
     
 
@@ -282,3 +282,9 @@ $('.responsive').on('click', function (e) {
     });
    
 })(jQuery);
+
+// Get the current year
+const currentYear = new Date().getFullYear();
+  
+// Set the year in the footer
+document.getElementById("year").textContent = currentYear;
