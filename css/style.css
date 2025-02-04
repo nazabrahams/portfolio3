@@ -21,6 +21,11 @@
 
 /*------------------------ 1 Body and Core Css ------------------------*/		
 
+.responsive-image {
+    width: 100%;
+    max-width: 40px;
+    height: auto;
+}
 
 
 
