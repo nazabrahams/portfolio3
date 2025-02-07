@@ -21,6 +21,7 @@
 
 /*------------------------ 1 Body and Core Css ------------------------*/		
 
+
 .responsive-image {
     width: 100%;
     max-width: 40px;
@@ -1166,6 +1167,11 @@ a.site-button{
     .about.type-1 .about-image img{
         margin: 0;
     }
+    .responsive-image {
+        width: 100%;
+        max-width: 40px;
+        height: auto;
+    }
     
 }
 
@@ -1255,6 +1261,11 @@ a.site-button{
     .diag .blog{
         padding-bottom: 60px;
     }
+    .responsive-image {
+        width: 100%;
+        max-width: 40px;
+        height: auto;
+    }
     
 }
 
@@ -1264,6 +1275,11 @@ a.site-button{
     
  .nav-menu{
         display: block!important;
+    }
+    .responsive-image {
+        width: 100%;
+        max-width: 40px;
+        height: auto;
     }
     
 }
