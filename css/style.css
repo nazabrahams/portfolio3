@@ -1284,6 +1284,14 @@ a.site-button{
     
 }
 
+@media screen and (max-width: 428px) {
+    .responsive-image {
+        width: 100%;
+        max-width: 40px;
+        height: auto;
+    }
+}
+
 
 /*------------------------ 7 Slider & Video Home ------------------------*/
 
